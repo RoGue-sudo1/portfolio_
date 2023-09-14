@@ -57,7 +57,7 @@ const Navbar = () => {
                 active===link.title
                 ? 'text-white'
                 : 'text-secondary'
-              } font-poppins font-medium
+              } font-poppins font-mediu
               cursor-pointer text-[16px]
               `}
               onClick={()=>{
