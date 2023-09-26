@@ -33,13 +33,15 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={()=>setActive(link.title)}
               >
-
-                <a href={`#${link.id}`}>{link.title}</a>
+                {(link.id )==='resume'? <a href="" className='bg-[#915eff] p-2 text-white' target="_blank">{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a>}
               </li>
               )
             })}
+
             
           </ul>
+           
+           {/* <a href="" target='_blank' className='list-none hidden sm:flex text-white p-2 bg-[#915eff]'>Download CV</a> */}
           <div className='sm:hidden flex flex-1 justify-end items-center'>
             <img
             src={toggle ? close : menu}

@@ -31,6 +31,11 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id:'resume',
+      title:'Download Resume/CV'
+    }
+    
   ];
   
   const services = [
