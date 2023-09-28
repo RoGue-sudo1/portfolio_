@@ -41,7 +41,7 @@ const Navbar = () => {
             
           </ul>
            
-           {/* <a href="" target='_blank' className='list-none hidden sm:flex text-white p-2 bg-[#915eff]'>Download CV</a> */}
+           
           <div className='sm:hidden flex flex-1 justify-end items-center'>
             <img
             src={toggle ? close : menu}

@@ -33,7 +33,7 @@ import {
     },
     {
       id:'resume',
-      title:'Download Resume/CV'
+      title:'Download CV'
     }
     
   ];
