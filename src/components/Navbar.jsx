@@ -69,7 +69,7 @@ const Navbar = () => {
               }
               >
 
-               {(link.id )==='resume'? <a href="https://drive.google.com/file/d/19VBIQ0bY5NLZnGSuMd4prB7TvsquV6iU/view?usp=sharing" rel="noreferrer" target="_blank">{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a>}
+               {(link.id )==='resume'? <a href="https://drive.google.com/file/d/11syvtuQRjdowGC45wIpL_evQZZMtmwhA/view?usp=sharing" rel="noreferrer" target="_blank">{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a>}
               </li>
               )
             })}

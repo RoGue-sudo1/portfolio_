@@ -22,6 +22,8 @@ import MemeXD from "./company/MemeXD.png";
 
 
 import video_talker from "./video_talker.png";
+import netflix from './netflix.png'
+import appointFit from "./appointFit.png"
 import task_manager from "./task_manager.png";
 import meme_generator from "./meme_generator.png";
 import airbnb_clone from "./airbnb_clone.png";
@@ -47,6 +49,8 @@ export {
   threejs,
   MemeXD,
   video_talker,
+  netflix,
+  appointFit,
   task_manager,
   meme_generator,
   airbnb_clone
